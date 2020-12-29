@@ -292,7 +292,7 @@ chem<-read.table ('https://www.dipintothereef.com/uploads/3/7/3/5/37359245/carp.
 + *<span style="color: green"> Repeat the same for the species data associates </span>*
 
 ```{r,  eval=T, message=F}
-chem<-read.table ('https://www.dipintothereef.com/uploads/3/7/3/5/37359245/carp.chemistry.txt',header=T, sep=",",row.names=1) 
+c.spec<-read.table ('https://www.dipintothereef.com/uploads/3/7/3/5/37359245/carp.vasc_plants.txt',header=T, sep=",",row.names=1)
 ```
 
 *<span style="color: green">You can play a bit by adding cluster, post-hoc interpretation using environmental variables, etc.</span>* 
